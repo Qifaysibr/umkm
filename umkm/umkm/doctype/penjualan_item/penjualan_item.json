@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-05-31 16:16:23.430589",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "barang",
+  "qty",
+  "harga_satuan",
+  "subtotal"
+ ],
+ "fields": [
+  {
+   "fieldname": "barang",
+   "fieldtype": "Link",
+   "label": "Barang",
+   "options": "Barang"
+  },
+  {
+   "description": "Jumlah dibeli",
+   "fieldname": "qty",
+   "fieldtype": "Int",
+   "label": "Qty"
+  },
+  {
+   "fieldname": "harga_satuan",
+   "fieldtype": "Currency",
+   "label": "Harga Satuan",
+   "options": "Barang.harga"
+  },
+  {
+   "fieldname": "subtotal",
+   "fieldtype": "Currency",
+   "label": "Subtotal",
+   "options": "qty * harga_satuan"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-05-31 16:21:17.640755",
+ "modified_by": "Administrator",
+ "module": "Umkm",
+ "name": "Penjualan Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

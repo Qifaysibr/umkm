@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-05-31 16:07:21.122522",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "tanggal",
+  "customer",
+  "total",
+  "items"
+ ],
+ "fields": [
+  {
+   "default": "now",
+   "fieldname": "tanggal",
+   "fieldtype": "Datetime",
+   "label": "Tanggal"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Data",
+   "label": "Customer"
+  },
+  {
+   "description": "Total otomatis",
+   "fieldname": "total",
+   "fieldtype": "Currency",
+   "label": "Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Daftar Barang",
+   "options": "Penjualan Item"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-31 16:24:18.511735",
+ "modified_by": "Administrator",
+ "module": "Umkm",
+ "name": "Penjualan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
