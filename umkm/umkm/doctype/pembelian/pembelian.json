@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-05-31 18:56:37.701550",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "tanggal",
+  "suplier",
+  "total",
+  "items"
+ ],
+ "fields": [
+  {
+   "description": "Tanggal penerimaan barang",
+   "fieldname": "tanggal",
+   "fieldtype": "Date",
+   "label": "Tanggal"
+  },
+  {
+   "fieldname": "suplier",
+   "fieldtype": "Data",
+   "label": "Suplier"
+  },
+  {
+   "description": "Total seluruh pembelian",
+   "fieldname": "total",
+   "fieldtype": "Currency",
+   "label": "Total"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "Pembelian Item"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-31 19:00:17.548849",
+ "modified_by": "Administrator",
+ "module": "Umkm",
+ "name": "Pembelian",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
