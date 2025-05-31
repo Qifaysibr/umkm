@@ -1,3 +1,37 @@
+# ERP UMKM - Aplikasi ERP berbasis Frappe Framework
+
+Aplikasi ERP sederhana untuk pelaku UMKM, dikembangkan dengan Python dan Frappe Framework.
+
+## Modul:
+- Barang (Master produk)
+- Penjualan & Laporan
+- Pelanggan
+- Pembelian
+
+## Fitur:
+- CRUD lengkap tiap modul
+- Otomatisasi stok saat penjualan
+- Laporan penjualan harian
+- API Ready (REST API Frappe)
+
+## Teknologi
+- Frappe Framework v14
+- Python
+- MariaDB
+- REST API
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Umkm
 
 Erp untuk UMKM
