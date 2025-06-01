@@ -1,6 +1,6 @@
 {
  "actions": [],
- "allow_rename": 1,
+ "autoname": "format:jual-{DD}-{MM}-{YY}-{####}",
  "creation": "2025-05-31 16:07:21.122522",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -16,12 +16,16 @@
    "default": "now",
    "fieldname": "tanggal",
    "fieldtype": "Datetime",
+   "in_preview": 1,
    "label": "Tanggal"
   },
   {
+   "allow_in_quick_entry": 1,
    "fieldname": "customer",
-   "fieldtype": "Data",
-   "label": "Customer"
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Customer",
+   "options": "Pelanggan"
   },
   {
    "description": "Total otomatis",
@@ -51,10 +55,11 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-06-01 17:48:01.324834",
+ "modified": "2025-06-01 21:30:05.389373",
  "modified_by": "Administrator",
  "module": "Umkm",
  "name": "Penjualan",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
