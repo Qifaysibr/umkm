@@ -15,6 +15,7 @@
   {
    "fieldname": "barang",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Barang",
    "options": "Barang"
   },
@@ -22,11 +23,13 @@
    "description": "Jumlah dibeli",
    "fieldname": "qty",
    "fieldtype": "Int",
+   "in_list_view": 1,
    "label": "Qty"
   },
   {
    "fieldname": "harga_satuan",
    "fieldtype": "Currency",
+   "in_list_view": 1,
    "label": "Harga Satuan",
    "options": "Barang.harga"
   },
@@ -41,7 +44,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-05-31 16:21:17.640755",
+ "modified": "2025-06-01 15:16:02.179822",
  "modified_by": "Administrator",
  "module": "Umkm",
  "name": "Penjualan Item",
