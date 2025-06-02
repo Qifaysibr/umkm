@@ -1,5 +1,6 @@
 # ERP UMKM - Aplikasi ERP berbasis Frappe Framework
 
+![Image](https://github.com/user-attachments/assets/1304ae84-02d9-4849-8960-ca67df603961)
 Aplikasi ERP sederhana untuk pelaku UMKM, dikembangkan dengan Python dan Frappe Framework.
 
 ## Modul:
