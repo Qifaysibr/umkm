@@ -13,9 +13,10 @@ Aplikasi ERP sederhana untuk pelaku UMKM, dikembangkan dengan Python dan Frappe 
 - Otomatisasi stok saat penjualan
 - Laporan penjualan harian
 - API Ready (REST API Frappe)
+- Notifikasi stok via Telegram
 
 ## Teknologi
-- Frappe Framework v14
+- Frappe Framework v15
 - Python
 - MariaDB
 - REST API

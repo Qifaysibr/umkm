@@ -1,0 +1,77 @@
+{
+ "charts": [
+  {
+   "chart_name": "Stok barang",
+   "label": "Stok barang"
+  },
+  {
+   "chart_name": "Penjualan Harian (7 Hari Terakhir)",
+   "label": "Penjualan Harian (7 Hari Terakhir)"
+  },
+  {
+   "chart_name": "Barang Terlaris (Qty Penjualan Tertinggi)",
+   "label": "Barang Terlaris"
+  }
+ ],
+ "content": "[{\"id\":\"tx2CihAp8H\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">                                                    Umkm</span>\",\"col\":12}},{\"id\":\"W6Nk8GplGQ\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Penjualan Harian (7 Hari Terakhir)\",\"col\":12}},{\"id\":\"cpJjRKAdEn\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Barang Terlaris\",\"col\":6}},{\"id\":\"ieKgcL8OEA\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Stok barang\",\"col\":6}},{\"id\":\"27OH8yo_cW\",\"type\":\"card\",\"data\":{\"card_name\":\"Shortcut\",\"col\":3}},{\"id\":\"1L6idBchbe\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"EwwIAW13Tz\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Draft Penjualan (belum diSubmit)\",\"col\":4}}]",
+ "creation": "2025-06-01 22:22:29.774779",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "image-view",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "Umkm",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shortcut",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Penjualan",
+   "link_count": 0,
+   "link_to": "Penjualan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Pembelian",
+   "link_count": 0,
+   "link_to": "Pembelian",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-06-02 09:19:37.360397",
+ "modified_by": "Administrator",
+ "module": "Umkm",
+ "name": "Umkm",
+ "number_cards": [
+  {
+   "label": "Draft Penjualan (belum diSubmit)",
+   "number_card_name": "Draft Penjualan"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [],
+ "title": "Umkm"
+}

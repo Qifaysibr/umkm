@@ -1,6 +1,6 @@
 {
  "actions": [],
- "allow_rename": 1,
+ "autoname": "format:beli-{DD}-{MM}-{YY}-{####}",
  "creation": "2025-05-31 18:56:37.701550",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -50,10 +50,11 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-06-01 20:34:03.751270",
+ "modified": "2025-06-02 06:05:19.563371",
  "modified_by": "Administrator",
  "module": "Umkm",
  "name": "Pembelian",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

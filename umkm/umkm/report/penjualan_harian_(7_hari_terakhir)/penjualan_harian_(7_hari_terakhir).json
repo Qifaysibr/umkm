@@ -1,0 +1,29 @@
+{
+ "add_total_row": 0,
+ "add_translate_data": 0,
+ "columns": [],
+ "creation": "2025-06-02 08:52:15.066893",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2025-06-02 08:55:34.860557",
+ "modified_by": "Administrator",
+ "module": "Umkm",
+ "name": "Penjualan Harian (7 Hari Terakhir)",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT \n    DATE(tanggal) AS label,\n    SUM(total) AS value\nFROM \n    `tabPenjualan`\nWHERE \n    DATE(tanggal) >= DATE_SUB(CURDATE(), INTERVAL 7 DAY)\nGROUP BY \n    DATE(tanggal)\nORDER BY \n    DATE(tanggal);",
+ "ref_doctype": "Penjualan",
+ "report_name": "Penjualan Harian (7 Hari Terakhir)",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "timeout": 0
+}

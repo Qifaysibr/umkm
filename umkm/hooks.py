@@ -5,6 +5,11 @@ app_description = "Erp untuk UMKM"
 app_email = "afim121@gmail.com"
 app_license = "mit"
 
+app_include_module_map = {
+    "Umkm": "umkm.config.desktop"
+}
+
+
 # Apps
 # ------------------
 
